@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="10" parallel="methods" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="10" parallel="methods" name="Test(failed)" verbose="0">
+    <parameter name="browserName" value="GC"/>
+    <classes>
+      <class name="com.pms.test.BuyAProduct">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="beforeSuiteSetup"/>
+          <include name="tearDown"/>
+          <include name="launchUrl"/>
+          <include name="loginURL"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.pms.test.BuyAProduct -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
