@@ -153,10 +153,18 @@ public class Constants {
 	
 	public static final String XPATH_MYORDER_ORDER_NUMBERS_LIST_MYORDER_PAGE = "//div[@class='table-wrapper orders-history']//tbody//tr//td[@class='col id']";
 	
+	
+	
 	/*
 	 * Accounts Module
 	 */
 	public static final String XPATH_SUCCESS_MSZ_ADDRESS_SAVED_ADDRESSBOOK = "//div[@class='page messages']//div[@class='messages']//div//div";
+	
+	public static final String XPATH_TEST = "test xpath";
+	public static final String XPATH_TEST2 = "test xpath 2";
+	public static final String XPATH_TEST4 = "test xpath 3";
+	
+	
 	
 	private Constants()
 	{
