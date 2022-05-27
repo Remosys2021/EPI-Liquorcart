@@ -65,7 +65,7 @@ public class AddAProductBeforeSignIn
 	{	
 
 		try {
-			WebPageNavigation.openBrowser(Constants.DEV_ENVIRONMENT_LC);	
+			WebPageNavigation.openBrowser(Constants.PROD_ENVIRONMENT_LC);	
 
 			logger = extent.createTest("Select Location");
 
