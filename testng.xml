@@ -4,7 +4,7 @@
 	<test name="Test" thread-count="1">
 		<parameter name="browserName" value="GC"></parameter>
 		<classes>	
-			<class name="com.pms.test.NewUserSignUp">
+			<class name="com.pms.test.AccountModule">
 			</class>
 		</classes>
 	</test>
