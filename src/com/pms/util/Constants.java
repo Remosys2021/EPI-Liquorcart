@@ -75,9 +75,17 @@ public class Constants {
 	
 	//a[@class="action showcart"]
 	
-	public static final String XPATH_MERCHANT_PHNE = "//div[@class='merchant-phoneHours']//h2";
+//	public static final String XPATH_MERCHANT_PHNE = "//div[@class='merchant-phoneHours']//h2"; // got changed in new build
 	
-	public static final String XPATH_MERCHANT_HRS = "//div[@class='merchant-phoneHours']//p";
+	public static final String XPATH_MERCHANT_PHNE = "//div[contains(@class,'merchant-phoneHours')]/h2";
+	
+	
+	
+//	public static final String XPATH_MERCHANT_HRS = "//div[@class='merchant-phoneHours']//p"; // got changed in new build
+	
+	public static final String XPATH_MERCHANT_HRS = "//div[contains(@class,'merchant-phoneHours')]//p";
+	
+	
 	
 	public static final String XPATH_SIGNOU_BTN ="//li[@class='link authorization-link']//a[text()='Sign Out']";
 	
